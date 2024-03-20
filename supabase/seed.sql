@@ -1,1 +1,1 @@
-insert into public.rooms default values;
+insert into public.rooms (name) values ('Sunny Mountain'), ('Dark River'), ('Misty Forest');
