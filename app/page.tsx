@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { createClient } from "./supabase";
 
+export const revalidate = 60;
+
 export default async function Home() {
   const supabase = createClient();
 
